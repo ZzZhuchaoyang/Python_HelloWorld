@@ -32,3 +32,13 @@ print(1>0)
 a = "hallo " \
     "world\""
 print(a)
+# bool
+test = 2
+a = test>=1
+print(a)
+b = test>=3 and test<5
+print(b)
+c = test>=3 or test<0
+print(c)
+d = b and test == 2  # (test>=3 and test<5) and test == 2
+print(d)
