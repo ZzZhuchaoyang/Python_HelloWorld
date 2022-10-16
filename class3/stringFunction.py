@@ -26,7 +26,7 @@ print("The student's grade is {} isA is {}".format(performance, isA))
 print("{0}\t{1}\t{0}".format("通配符第一个", "通配符第二个"))  # 通配符第一个	通配符第二个	通配符第一个
 
 print("{}\t{}\t{}".format(0 ,1 ,0))  # 通配符顺序填充
-print("{0}\t{1}\t{0}".format(0, 1))
+print("{0}\t{1}\t{0}".format('b', 'A'))
 
 print("The student's grade is {0} isA is {1}".format(performance, isA))
 print("The student's grade is {1} isA is {0}".format(isA, performance))
